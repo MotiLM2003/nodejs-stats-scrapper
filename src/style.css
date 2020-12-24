@@ -1,0 +1,37 @@
+.html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+.container {
+  position: relative;
+}
+
+.container .img {
+  width: 548px;
+  height: 93px;
+}
+.container p {
+  font-size: 1.2rem;
+  font-weight: 6;
+  position: absolute;
+  top: 0.4rem;
+  color: #fff;
+}
+.container .wins {
+  left: 3.7rem;
+}
+
+.container .level {
+  left: 12.5rem;
+}
+
+.container .kd {
+  left: 21.6rem;
+}
+
+.container .kills {
+  left: 28.3rem;
+}
