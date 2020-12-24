@@ -22,7 +22,6 @@ const App = () => {
   const getData = async () => {
     const { data } = await axios.get('api/data');
     setStats(data);
-    console.log(data);
   };
 
   return (
@@ -32,7 +31,6 @@ const App = () => {
       <p className='level'>{stats.level}</p>
       <p className='kd'>{stats.kd}</p>
       <p className='kills'>{stats.kills}</p>
-      <button onClick={() => getData()}>Hello</button>
     </div>
   );
 };

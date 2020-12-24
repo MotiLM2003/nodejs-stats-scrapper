@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const cheerio = require('cheerio');
 const cors = require('cors');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 const publicPath = path.join(__dirname, '..', 'build');
 
 console.log(publicPath);

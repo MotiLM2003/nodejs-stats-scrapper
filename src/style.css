@@ -14,11 +14,12 @@ body {
   height: 93px;
 }
 .container p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 6;
   position: absolute;
-  top: 0.4rem;
+  top: 0.6rem;
   color: #fff;
+  font-family: 'Langar', cursive;
 }
 .container .wins {
   left: 3.7rem;
@@ -29,7 +30,7 @@ body {
 }
 
 .container .kd {
-  left: 21.6rem;
+  left: 21.8rem;
 }
 
 .container .kills {
