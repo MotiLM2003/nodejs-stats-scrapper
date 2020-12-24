@@ -15,7 +15,7 @@ const App = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       getData();
-    }, 5000);
+    }, 60000);
     getData();
   }, []);
 
