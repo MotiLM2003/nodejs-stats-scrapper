@@ -18,11 +18,10 @@
   },
   "proxy": "http://localhost:5000",
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "node server/server.js",
+    "start": "node server/server.js",
     "install-client" : "npm install",
     "heroku-postbuild" : "npm run install-client && npm run build"
   },
