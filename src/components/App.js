@@ -13,10 +13,10 @@ const App = () => {
   });
 
   useEffect(() => {
-    // const interval = setInterval(() => {
-    //   getData();
-    // }, 125000);
-    // getData();
+    const interval = setInterval(() => {
+      getData();
+    }, 5000);
+    getData();
   }, []);
 
   const getData = async () => {
