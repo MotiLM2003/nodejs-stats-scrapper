@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import api from '../api';
 import axios from 'axios';
 
-import image from '../images/background.JPG';
+import image from '../images/background-image.jpg';
 import '../style.css';
 const App = () => {
   const [stats, setStats] = useState({
